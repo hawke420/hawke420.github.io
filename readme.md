@@ -1,10 +1,14 @@
 # 学习记录
 ## 这些npm操作都应该是项目的根目录操作！！！
 1.npm run dev 可以看效果
+
 2.npm run build 然后需要的是dist文件夹，同时可以先把其他文件删了【全删就可以，后续用http-server可以下载回来需要的node_modules下的一些文件】
-3.在项目的文件下进行npm install http-server
+
+3.在项目的文件**【现在项目就是dist文件夹（可以给disk重命名成自己的项目名称）】**下进行npm install http-server
 (base) xiaoyu@yudeMacBook-Air ~/Documents/Docker/projects/hawke420.github.io ±main⚡ » npm run build
-【当您运行 npm install http-server 命令时，npm 会从 npm registry 下载 http-server 包，并将其安装到项目的 node_modules 目录中。默认情况下，node_modules 目录位于您运行该命令的当前工作目录下。】
+
+当您运行 npm install http-server 命令时，npm 会从 npm registry 下载 http-server 包，并将其安装到项目的 node_modules 目录中。默认情况下，node_modules 目录位于您运行该命令的当前工作目录下。
+
 4.再上传整个项目文件
 
 ## 上述都是构建项目然后上传github可以显示，要是本地写的话还是先npm run dev 看效果。因为写的是vue文件，自动构建成css/js等文件的
