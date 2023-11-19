@@ -1,7 +1,7 @@
 # 学习记录
 ## 这些npm操作都应该是项目的根目录操作！！！
 1.npm run dev 可以看效果
-2.npm run build 然后需要的是dist文件夹，同时可以先把其他文件删了【全删就可以，后续用http-server下载回来需要的】
+2.npm run build 然后需要的是dist文件夹，同时可以先把其他文件删了【全删就可以，后续用http-server可以下载回来需要的node_modules下的一些文件】
 3.在项目的文件下进行npm install http-server
 (base) xiaoyu@yudeMacBook-Air ~/Documents/Docker/projects/hawke420.github.io ±main⚡ » npm run build
 【当您运行 npm install http-server 命令时，npm 会从 npm registry 下载 http-server 包，并将其安装到项目的 node_modules 目录中。默认情况下，node_modules 目录位于您运行该命令的当前工作目录下。】
